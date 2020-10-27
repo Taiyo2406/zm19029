@@ -7,7 +7,7 @@
 <!--<script src="myjs.js"></script>-->
 <script src="ex6-1.js"></script>
 <script src="ex6-5.js"></script>
-
+<script src="ex6-7.js"></script>
 </head>
 <body>
   <!--文字の大きさの練習-->
@@ -223,7 +223,17 @@ onclick="saygoodbye();">
 
 <h1>変数の練習</h1>
 <input type="button" value="あいさつ" onclick="sayhello65();">
-<input type="button" value="太郎" onclick="taro65();">
-<input type="button" value="花子" onclick="hanako65();">
+<input type="button" value="太郎" onclick="taro65();gakita()">
+<input type="button" value="花子" onclick="hanako65();gakita()">
+<h1>引数の練習</h1>
+<input type="button" value="あいさつ" onclick="sayhello67();">
+<input type="button" value="太郎" onclick="someone('太郎');">
+<input type="button" value="花子" onclick="someone('花子');">
+<br>
+<input type="button" value="レイ" onclick="someone('レイ');">
+<input type="button" value="シンジ" onclick="someone('シンジ');">
+<input type="button" value="アスカ" onclick="someone('アスカ');">
+<br>
+
 </body>
 </html>
