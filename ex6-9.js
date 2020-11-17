@@ -3,5 +3,5 @@ function txtchange1() {
 }
 
 function imgchange1() {
-  document.getElementById('logo').src = 'onion.gif';
+  document.getElementById('logo').src = './image/onion.gif';
 }
