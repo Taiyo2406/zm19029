@@ -1,7 +1,9 @@
-function txtchange1() {
-  document.getElementById('txt1').innerHTML = 'ナンバーワン！';
+function sayhello68() {
+  alert('Hello, ' + document.getElementById('who68').innerHTML + '!');
 }
-
-function imgchange1() {
-  document.getElementById('logo').src = './image/bulbon.gif';
+function taro68() {
+  document.getElementById('who68').innerHTML = '太郎';
+}
+function hanako68() {
+  document.getElementById('who68').innerHTML = '花子';
 }
