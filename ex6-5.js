@@ -13,6 +13,6 @@ who = '花子';
 //come = 'が来た';
 }
  function gakita() {
-alert('hello'+ who +'が来た！');
+alert( who +'が来た！');
 
 }
