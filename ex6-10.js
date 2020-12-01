@@ -5,7 +5,7 @@ img[0].src = "keiei_small.jpg";
 img[1] = new Image();
 img[1].src = "onion.gif";
 img[2] = new Image();
-img[2].src=  "";
+img[2].src=  "crystal.gif";
 
 
 //画像番号用のグローバル変数
