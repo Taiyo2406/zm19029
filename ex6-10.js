@@ -1,11 +1,11 @@
 var img = new Array();
 
 img[0] = new Image();
-img[0].src = "keiei_small.jpg";
+img[0].src = "./image/keiei_small.jpg";
 img[1] = new Image();
-img[1].src = "onion.gif";
+img[1].src = "./image/onion.gif";
 img[2] = new Image();
-img[2].src=  "crystal.gif";
+img[2].src=  "./image/crystal.gif";
 
 
 //画像番号用のグローバル変数
