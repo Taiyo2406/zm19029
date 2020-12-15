@@ -1,4 +1,4 @@
-function mes()
+function setTimeout()
 {
  document.getElementById('logo2').src ='./image/onion.gif';
 }
